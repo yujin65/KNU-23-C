@@ -8,7 +8,7 @@ int main(void)
 	scanf_s("%d", &jumsu);
 
 	if (jumsu > 100 || jumsu < 0)
-		printf("Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.\n");
+		printf("ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤.\n");
 	else if (jumsu >= 90)
 		grade = 'A';
 	else if (jumsu >= 80)
@@ -20,6 +20,6 @@ int main(void)
 	else
 		grade = 'F';
 
-	printf("Á¡¼ö µî±Ş : %cÇĞÁ¡\n", grade);
+	printf("ì ìˆ˜ ë“±ê¸‰ : %cí•™ì \n", grade);
 	return 0;
-}
+} 
