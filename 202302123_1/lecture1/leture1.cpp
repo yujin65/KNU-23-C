@@ -4,8 +4,8 @@
 int main(void)
 {
 	int num;
-	printf("1. Á¤¼ö ÀÔ·Â.");
+	printf("1. ì •ìˆ˜ ì…ë ¥.");
 	scanf_s("%d", &num);
-	printf("2. Å°º¸µå·Î ÀÔ·Â¹ŞÀº °ªÀº %dÀÔ´Ï´Ù.\n", num);
+	printf("2. í‚¤ë³´ë“œë¡œ ì…ë ¥ë°›ì€ ê°’ì€ %dì…ë‹ˆë‹¤.\n", num);
 	return 0;
 }
