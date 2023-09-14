@@ -13,4 +13,4 @@ int main(void)
 	else
 		printf("윤년이 아닙니다.\n");
 	return 0;
-}
+} 
