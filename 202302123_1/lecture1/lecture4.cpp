@@ -11,11 +11,11 @@ int main(void)
 	val4 = !val3;
 	val5 = b && c;
 
-	printf("a = 0, b = 6, c = 4ÀÏ ¶§\n");
+	printf("a = 0, b = 6, c = 4Ã€Ã Â¶Â§\n");
 	printf("1. a && b : %d\n", val1);
 	printf("2. a || c : %d\n", val2);
 	printf("3. (a > b) && (a < c) : %d\n", val3);
-	printf("4. (3)¹ø °ª ! val3 : %d\n", val4);
+	printf("4. (3)Â¹Ã¸ Â°Âª ! val3 : %d\n", val4);
 	printf("5. b && c : %d\n", val5);
 	return 0;
-}
+} 

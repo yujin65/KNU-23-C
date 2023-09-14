@@ -6,11 +6,11 @@ int main(void)
 
 	scanf_s("%d", &year);
 
-	int yy = (year % 4 == 0) && !(year % 100 == 0) && (year % 400 == 0);
+	int yy = (year % 4 == 0) && !(year % 100 == 0) || (year % 400 == 0);
 
 	if (yy) 
-		printf("À±³âÀÔ´Ï´Ù.\n");
+		printf("ìœ¤ë…„ì…ë‹ˆë‹¤.\n");
 	else
-		printf("À±³âÀÌ ¾Æ´Õ´Ï´Ù.\n");
+		printf("ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤.\n");
 	return 0;
-}
+} 
